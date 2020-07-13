@@ -56,38 +56,82 @@ namespace Sistema_d_votos_automatico
                             Console.WriteLine("Fecha de inicio: " + fechafundacion[0]);
                             Console.WriteLine("Nombre de partido: " + nombre[0]);
                             Console.WriteLine("Nombre del candidato: " + candidatos[0]);
+                            menuprincipal();
                             break;
                         case 2:
                             Console.WriteLine("Estas son las caraccteristicas del: " + partidos[1]);
                             Console.WriteLine("Fecha de inicio: " + fechafundacion[1]);
                             Console.WriteLine("Nombre de partido: " + nombre[1]);
                             Console.WriteLine("Nombre del candidato: " + candidatos[1]);
+                            menuprincipal();
                             break;
                         case 3:
                             Console.WriteLine("Estas son las caraccteristicas del: " + partidos[2]);
                             Console.WriteLine("Fecha de inicio: " + fechafundacion[2]);
                             Console.WriteLine("Nombre de partido: " + nombre[2]);
                             Console.WriteLine("Nombre del candidato: " + candidatos[2]);
+                            menuprincipal();
                             break;
                         case 4:
                             Console.WriteLine("Estas son las caraccteristicas del: " + partidos[3]);
                             Console.WriteLine("Fecha de inicio: " + fechafundacion[3]);
                             Console.WriteLine("Nombre de partido: " + nombre[3]);
                             Console.WriteLine("Nombre del candidato: " + candidatos[3]);
+                            menuprincipal();
                             break;
                     }
                     break;
                 case 2:
-
-                    break;
-                case 3:
-                    for (int i = 0; i < nrandom.Length; i++)
+                    Random aleatory = new Random();
+                    int cand1 = 0;
+                    int cand2 = 0;
+                    int cand3 = 0;
+                    int leader = 0;
+                    for (int i = 1; i <= 1000; i++)
                     {
-                        Random aleatory = new Random();
-                        nrandom[i] = aleatory.Next(1, 5);
-                        Console.ReadKey();
-                    }
+                        
+                        int frezer = 0;
 
+                        frezer = aleatory.Next(1, 5);
+                        if (frezer == 1)
+                        {
+                            
+                            cand1++;
+                        }
+                        else if(frezer == 2)
+                        {
+                            
+                            cand2++;
+                        }
+                        else if (frezer == 3)
+                        {
+                            
+                            cand3++;
+                        }
+                        else if (frezer == 4)
+                        {
+                            
+                            leader++;
+                        }
+
+
+                    }
+                    if (cand1 < cand2 && cand2 < cand3 && cand3 < leader)
+                    {
+                        Console.WriteLine("El candidato {0} es el ganador", candidatos[3]);
+                    }
+                    else if (cand2 < cand1 && cand2 < cand3 && leader < cand3)
+                    {
+                        Console.WriteLine("El candidato {0} es el ganador", candidatos[2]);
+                    }
+                    else if (cand1 < cand2 && cand3 < cand2 && cand3 < cand2)
+                    {
+                        Console.WriteLine("El candidato {0} es el ganador", candidatos[1]);
+                    }
+                    else if (cand2 < cand1 && cand2 < cand3 && leader < cand1)
+                    {
+                        Console.WriteLine("El candidato {0} es el ganador", candidatos[0]);
+                    }
                     break;
             }
         }
