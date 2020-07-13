@@ -1,0 +1,13 @@
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.exe
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.deps.json
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.runtimeconfig.json
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.runtimeconfig.dev.json
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.dll
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\bin\Debug\netcoreapp3.1\Sistema d votos automatico.pdb
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.csprojAssemblyReference.cache
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.AssemblyInfo.cs
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.dll
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.pdb
+C:\Users\Dell\source\repos\Sistema d votos automatico\Sistema d votos automatico\obj\Debug\netcoreapp3.1\Sistema d votos automatico.genruntimeconfig.cache
